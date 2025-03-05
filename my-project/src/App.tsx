@@ -5,29 +5,34 @@ import {
 import SignUp from "./pages/SignUp";
 import SignIn from "./pages/SignIn";
 import Dashboard from "./pages/Dashboard";
-import Task from "./pages/Task_manager";
+import TaskManager from "./pages/TaskManager";
 import Timer from "./pages/Timer";
 
 
 const router = createBrowserRouter([
   {
-    path: "/SignUp",
+    path: "/sign-up",
     element: <SignUp/>,
   },
 
   {
-    path: "/SignIn",
+    path: "/sign-in",
     element: <SignIn/>,
   },
 
   {
-    path: "/Task_manager",
-    element: <Task_manager/>,
+    path: "/task-manager",
+    element: <TaskManager/>,
   },
 
   {
-    path: "/Timer",
+    path: "/timer",
     element: <Timer/>,
+  },
+
+  {
+    path: "/dashboard",
+    element: <Dashboard/>,
   },
 
 
